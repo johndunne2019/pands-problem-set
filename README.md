@@ -20,6 +20,10 @@ See here for the instructions - https://github.com/ianmcloughlin/problems-pands-
 
 3. Solution_3.py contains my solution to problem 3 in the Problem Set which prints all numbers between 1,000 and 10,000 that are divisible by 6 but not divisible by 12. 
 
+4. Solution_4.py asks the user to input any positive integer and outputs the successive values of the following calculation: the current value is taken at each step and if it is even it is divided by 2 and if it is odd it is multiplied by 3 and 1 is added to the value. The program stops when the current value of the number is 1. This is known as Collatz Conjecture and no matter what number is inputted at the beginning of this calculation the result always arrives to 1.
+
+5. Solution_5.py asks the user to input any positive integer and it tells the user if it is a prime number or not. A prime number is a number divisible only by itself and 1. If a number is divisible by any other number it is not a prime number.
+
 
 
 ## References 
