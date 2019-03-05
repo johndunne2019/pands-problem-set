@@ -27,6 +27,7 @@ See here for the instructions - https://github.com/ianmcloughlin/problems-pands-
 
 
 ## References 
-1. Solution_2.py -  I read about the datetime function here: https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date-in-python I researched how to use an "or" statement here which allowed me to check for both Tuesday and Thursday in one line: https://www.w3schools.com/python/python_conditions.asp
-2. Solution_3.py - In developing my answer to Solution_3.py I read about using "and" to combine logical statements on this website which allowed me to use one line of code to ask for two conditions to be met: https://www.w3schools.com/python/python_conditions.asp
-3. Solution_5.py _ The code written here is adapted from the lecture we did in week 4 on the break and continue keywords in Python. The code we looked at is shown here: https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
+1. Solution_1.py - This code was adapted from the video we covered in week 4 lectures "loops"
+2. Solution_2.py -  I read about the datetime function here: https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date-in-python I researched how to use an "or" statement here which allowed me to check for both Tuesday and Thursday in one line: https://www.w3schools.com/python/python_conditions.asp
+3. Solution_3.py - In developing my answer to Solution_3.py I read about using "and" to combine logical statements on this website which allowed me to use one line of code to ask for two conditions to be met: https://www.w3schools.com/python/python_conditions.asp
+5. Solution_5.py _ The code written here is adapted from the lecture we did in week 4 on the break and continue keywords in Python. The code we looked at is shown here: https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
