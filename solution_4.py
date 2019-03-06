@@ -7,6 +7,8 @@
 
 x = int(input("Please Enter a Positive Integer:"))   # The user is asked to input a positive integer which will be the starting point of the calculation
 
+print(x)      # I want the integer the user has inputted to be printed to the screen and the new values after the calculations below will follow
+
 while x > 1:  # I want the the below statements to run only when the value of x is greater than 1 as I want the program to finish when the value reaches 1
     if x % 2 == 0: # this if statement checks if the current value of x is even
         x = x //2   # if the current value of x is even then the new value of x is set to the current value divided by 2 
@@ -16,6 +18,3 @@ while x > 1:  # I want the the below statements to run only when the value of x 
 
     # In the end I have asked for the values of x that have been calculated throughout the loop to be printed to the screen. 
     # The program ends when x is equal to 1 as the while loop has asked only for the conditions within to run while x is greater than 1 
-
-
-# I have to revisit this later and try to find a way for the original value of x also to be printed as shown in the example on the problem set
