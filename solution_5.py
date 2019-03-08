@@ -3,9 +3,9 @@
 # A prime number is a whole number greater than one thats only factors are one and itself
 # Any number that has factor other than one and itself is not a prime number
 
-print("This program takes a positive integer (whole number) and tells you whether it is a prime number")
+print("This program takes a positive integer (whole number) and tells you whether it is a prime number") # I added this line to tell the user how the program works
 x = int(input("Please Enter a Positive Integer:"))  #The user is asked to input a positive integer. The program will then identify if the number is a prime number or not. 
-if x <= 0:
+if x <= 0:    # If the integer entered by the user is less than one the below prompt will print to the screen and ask them to enter only a number greater than one
     print("Prime numbers are greater than one, please enter a positive integer greater than one")
 for i in range (2, x):  # A range has been defined between 2 up to but not including the number entered by the user(x).
     if x % i == 0:      # the if statement here will loop through all the numbers starting at 2 up to but not including the number that has been inputted by the user (x) and if any of the numbers are evenly divisible into the number inputted it is not a prime number 
