@@ -5,14 +5,16 @@
 # With Collatz Conjecture no matter what the starting value is the sequence will always reach 1 
 # This program ends when the current value is 1
 
+print("This program takes a positive integer and performs the Collatz Conjecture calculation and terminates when the current value is 1")
+
 x = int(input("Please Enter a Positive Integer:"))   # The user is asked to input a positive integer which will be the starting point of the calculation
 
 print(x)      # I want the integer the user has inputted to be printed to the screen and the new values after the calculations below will follow
 
 while x > 1:  # I want the the below statements to run only when the value of x is greater than 1 as I want the program to finish when the value reaches 1
-    if x % 2 == 0: # this if statement checks if the current value of x is even
+    if x % 2 == 0: # this if statement checks the remainder when x is divided by 2 determing if the number is even or odd
         x = x //2   # if the current value of x is even then the new value of x is set to the current value divided by 2 
-    else:  # if the above statement was false and the current value of x is odd then the below calculation is run instead
+    else:  # if the above if statement proved false and the current value of x is odd then the below calculation is run instead
         x = 3 * x + 1  # if the current value of x is odd then the new value of x is set to the current value multiplied by 3 plus 1 
     print(x)   # The loop above will run and calculate the new value of x as long as the while statement remains true (x greater than 1)
 
