@@ -2,6 +2,8 @@
 # John Dunne 2019-02-17
 # This program asks the user to input any positive integer and it will calculate the sum of all numbers between one and that number
 # Adapted from the video that we covered in week 4 lectures on Moodle
+print("This program takes a positive integer and outputs the sum of all numbers between one and that number")
+
 i = int(input("Please Enter a Positive Integer:")) #Here I am asking the user to enter any positive integer in order to run the program
 
 total = 0       # I am assigning total with a starting value of zero
