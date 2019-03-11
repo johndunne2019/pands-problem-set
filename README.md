@@ -14,7 +14,7 @@ See here for the instructions - https://github.com/ianmcloughlin/problems-pands-
 
 ## Contents of my files
 
-1. Solution_1.py contains my solution to problem 1 in the Problem Set which asks the user to input a positive integer and outputs the sum of all numbers between one and that number.
+1. Solution_1.py contains my solution to problem 1 in the Problem Set which asks the user to input a positive integer and outputs the sum of all numbers between one and that number. In this solution I added a feature to return a message to the user asking them to only enter a positive integer if the number entered by them is less than zero. If the variable entered is a positive number the program runs by adding 1 to the value entered and a range is established between 1 and the new value of the variable entered by the user. The sum function is then used to sum all the numbers in the range and print them to the screen. 
 
 2. Solution_2.py contains my solution to problem 2 in the Problem Set which outputs whether or not today is a day beginning with the letter T. The datetime module is used in this solution and there is an if statement used to check whether the current day is Tuesday or Thursday. I used the "or" keyword to check both conditions in the same line. An else statement is used to print an output for the other days of the week that are not given an output as a result of the if statement. 
 
@@ -32,7 +32,7 @@ See here for the instructions - https://github.com/ianmcloughlin/problems-pands-
 
 ## References 
 ## In this section I detail references and extra reading and research I completed during development of my solutions to this problem set
-1. Solution_1.py - This code was adapted from the video we covered in week 4 lectures "loops"
+1. Solution_1.py - In this solution I used the sum function to sum the total of a range of numbers between 1 and the variable to be entered by the user. I read about the sum function here: https://www.w3schools.com/python/ref_func_sum.asp
 2. Solution_2.py -  I read about the datetime function here: https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date-in-python I researched how to use an "or" statement here which allowed me to check for both Tuesday and Thursday in one line: https://www.w3schools.com/python/python_conditions.asp
 3. Solution_3.py - In developing my answer to Solution_3.py I read about using "and" to combine logical statements on this website which allowed me to use one line of code to ask for two conditions to be met: https://www.w3schools.com/python/python_conditions.asp
 5. Solution_5.py - The code written here is adapted from the lecture we did in week 4 on the break and continue keywords in Python. The code we looked at is shown here: https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops I added a line to give the user a a message asking only for a positive number to be inputted if they have entered a negative number. 
