@@ -1,15 +1,17 @@
 # solution to problem one on the problem set
 # John Dunne 2019-02-17
 # This program asks the user to input any positive integer and it will calculate the sum of all numbers between one and that number
-# Adapted from the video that we covered in week 4 lectures on Moodle
+
 print("This program takes a positive integer and outputs the sum of all numbers between one and that number")
+# I have added this line to explain to the user how this program works
 
 i = int(input("Please Enter a Positive Integer:")) #Here I am asking the user to enter any positive integer in order to run the program
+# The positive integer entered by the user will be assigned the variable value of i
+if i < 0: # I have added this feature to give the user a message if they enter any number less than zero
+    print("Please enter only a positive integer, this program does not operate on negative numbers")
+if i > 0: # When a positive integer greater than zero is entered the program runs as below
+  i  = i + 1  # I have added one to the value of i as I want to establish a range between 1 and i in the next step
+  x = range (1, i) # I have established a range of numbers between 1 and i, i being the number the user entered plus 1 
+  print(sum(x)) # I use the sum function to print the sum of all numbers in the range to the screen
 
-total = 0       # I am assigning total with a starting value of zero
-
-while i > 0:            # the loop below will continue to execute while the statement i is greater than zero remains true
-    total = total + i   # 1 is added to total and this then becomes the new value of total
-    i = i - 1           # the value of i eventually reaches zero and the loop is complete as the while statement above is no longer true
-
-print(total)  # When the while loop has finished the final value will be printed to the screen with this command
+# I read about the sum function here: https://www.w3schools.com/python/ref_func_sum.asp
