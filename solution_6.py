@@ -6,6 +6,7 @@ print("This program takes an input string from the user and outputs every second
 # First I have printed a line to the screen telling the user what the program does
 s = str(input("Please enter a sentence:")).split()[::2]
 # I have the user to input a sentence and then used the .split function to split the complete sentence into every second word
+# I have called the split with 2 colons to represent the first and last words entered by the user and a step of 2 to print every second word
 # I first wrote the program this way and called the print function straight away but my output was formatted inside square brackets:[Hello, World]
 # I then researched how to use the .join function to join the list back into a string 
 print(*s, sep=' ')
