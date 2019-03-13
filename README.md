@@ -15,7 +15,7 @@ See here for the instructions - https://github.com/ianmcloughlin/problems-pands-
 ## Contents of my files
 
 1. Solution_1.py contains my solution to problem 1 in the Problem Set which asks the user to input a positive integer and outputs the sum of all numbers between one and that number. In this solution I added a feature to return a message to the user asking them to only enter a positive integer if the number entered by them is less than zero. If the variable entered is a positive number the program runs by adding 1 to the value entered and a range is established between 1 and the new value of the variable entered by the user. The sum function is then used to sum all the numbers in the range and print them to the screen. 
-### Further reading and references
+###### Further reading and references######
 * I used the sum function to sum the total of a range of numbers between 1 and the variable to be entered by the user. I read about the sum function here: https://www.w3schools.com/python/ref_func_sum.asp
 
 
