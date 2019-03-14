@@ -30,12 +30,13 @@ John Dunne
 * if statements: https://docs.python.org/3/tutorial/controlflow.html#if-statements and https://www.w3schools.com/python/python_conditions.asp
 * Range: https://docs.python.org/3/tutorial/controlflow.html#the-range-function and https://www.w3schools.com/python/ref_func_range.asp
 
+**2. Solution_2.py**
 
+ This file contains my solution to problem 2 in the Problem Set which outputs whether or not today is a day beginning with the letter T. The datetime module is used in this solution and there is an if statement used to check whether the current day is Tuesday or Thursday. I used the "or" keyword to check both conditions in the same line. An else statement is used to print an output for the other days of the week that are not given an output as a result of the if statement. 
 
-2. Solution_2.py contains my solution to problem 2 in the Problem Set which outputs whether or not today is a day beginning with the letter T. The datetime module is used in this solution and there is an if statement used to check whether the current day is Tuesday or Thursday. I used the "or" keyword to check both conditions in the same line. An else statement is used to print an output for the other days of the week that are not given an output as a result of the if statement. 
-*Further reading and references*
--I read about the datetime function here:  https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date-in-python
--I researched how to use an "or" statement here which allowed me to check for both Tuesday and Thursday in one line: https://www.w3schools.com/python/python_conditions.asp
+**Further reading and references**
+*I read about the datetime function here:  https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date-in-python
+*I researched how to use an "or" statement here which allowed me to check for both Tuesday and Thursday in one line: https://www.w3schools.com/python/python_conditions.asp
 
 3. Solution_3.py contains my solution to problem 3 in the Problem Set which prints all numbers between 1,000 and 10,000 that are divisible by 6 but not divisible by 12. In this solution I established a range of numbers between 1,000 and 10,000 and and used an if statement to check the conditions outlined in the program. I used the "and" keyword to check both conditions in one line of code.
 
