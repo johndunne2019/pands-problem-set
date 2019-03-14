@@ -2,7 +2,7 @@
 
 This repository contains my solutions to the Problem set 2019 for the module Programming and Scripting at GMIT.
 See here for the instructions - https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf.
-The problem set consists of ten problems assigned to me as part of my learning in the programming and scripting module. I worked to solve all ten problems through a combination of watching the lectures on a weekly basis, extra reading and research online and implementing these learnings order to develop the solutions to each problem. 
+The problem set consists of ten problems assigned to me as part of my learning in the Programming and Scripting module. I worked to solve all ten problems through a combination of watching the lectures on a weekly basis, extra reading and research online and implementing these learnings order to develop the solutions to each problem. 
 In developing this Readme file I researched how to format the file and what headings should be included at the following links: https://en.support.wordpress.com/markdown-quick-reference/ and https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
 
 ## Author
@@ -19,12 +19,12 @@ John Dunne
 
 ## Contents of my files
 *In this section there is a breakdown on the contents of the files in my repository and some background to the contents of each file and the thought process that went into the writing of each file*
-1. Solution_1.py contains my solution to problem 1 in the Problem Set which asks the user to input a positive integer and outputs the sum of all numbers between one and that number. In this solution I added a feature to return a message to the user asking them to only enter a positive integer if the number entered by them is less than zero. If the variable entered is a positive number the program runs by adding 1 to the value entered and a range is established between 1 and the new value of the variable entered by the user. The sum function is then used to sum all the numbers in the range and print them to the screen. 
+1. Solution_1.py contains my solution to problem 1 in the Problem Set which asks the user to input a positive integer and outputs the sum of all numbers between one and that number. In this solution I added a feature to return a message to the user asking them to only enter a positive integer if the number entered by them is less than zero. This feature is an if statement that prints this message to the screen if the user has entered an input less than zero.  In a similar way I have used an if statement to ensure the program is only run where the input is greater than one. I asked for one to be added to the users input and then established a range between 1 and the new value of the variable. The reason I increased the value the user entered by one is because this is necessary to have an accurate range. The sum function is then used to sum all the numbers in the range and print them to the screen. 
 *Further reading and references*
 * I developed this solution myself and I have included below some links where I did additional reading on if statements, range and sum functions which form a core part of this solution. 
-* Sum: https://www.w3schools.com/python/ref_func_sum.asp
-* if statements: https://docs.python.org/3/tutorial/controlflow.html#if-statements
-* Range: https://docs.python.org/3/tutorial/controlflow.html#the-range-function
+* Sum: https://www.w3schools.com/python/ref_func_sum.asp and https://docs.python.org/3/library/functions.html
+* if statements: https://docs.python.org/3/tutorial/controlflow.html#if-statements and https://www.w3schools.com/python/python_conditions.asp
+* Range: https://docs.python.org/3/tutorial/controlflow.html#the-range-function and https://www.w3schools.com/python/ref_func_range.asp
 
 
 
