@@ -53,18 +53,40 @@ This file contains my solution to problem 3 in the Problem Set which prints all 
 
 This file contains my solution to problem 4 on the problem set. The program asks the user to input any positive integer and outputs the successive values of the following calculation: the current value is taken at each step and if it is even it is divided by 2 and if it is odd it is multiplied by 3 and 1 is added to the value. The program stops when the current value of the number is 1. This is known as Collatz Conjecture and no matter what number is inputted at the beginning of this calculation the result always arrives to 1. I used a while loop and set it to loop as long as the variable which in this case is the integer inputted by the user is greater than 1. Within this loop I used an if statement to identify even numbers with the modulo operator and I used an else statement to pick up all other integers (odd numbers). Within the if and else statements I assigned new values to the variable. When the program executes the loop runs as long as the number inputted by the user is greater than 1 and the results are printed to the screen. I also asked for the original value entered by the user to be printed to the screen first before the execution of the while loop. 
 
+**Further reading and references**
+
 **5. Solution_5.py**
 
 This file contains my solution to solution 5 on the problem set. This program asks the user to input any positive integer and it tells the user if it is a prime number or not. A prime number is a whole number greater than 1 divisible only by itself and 1. If a number is divisible by any other number it is not a prime number. In this solution a range is established between 2 and one less than the number inputted by the user. A for loop with an if statement embedded will run for each number in the range to detect if any number in the range is divisible by the number inputted in which case the number is proven not to be a prime. If no divisor is detected in the if statement the break keyword has been used to break out of the loop and an else statement runs to tell the user the number is a prime. I have also added a feature whereby if the user enters a number less than or equal to 1 they are prompted to enter only a number greater than 1.  
+
+**Further reading and references**
 
 **6. Solution_6.py**
 
 This file contains my solution to problem 6 on the problem set. The program takes a user input string and outputs every second word. I used the .split and .join functions that we covered in week 7 lectures in writing this program. The .split function is used to split the string inputted by the user and take only every second word [::2] forming a list of these words. The .join function is used to join this list back together in string format and this is then printed to the screen. 
 
+**Further reading and references**
+
 **7. Solution_7.py**
 
  This file contains my solution to problem 7 on the problem set. This is a program that takes a positive floating point number inputted by the user and outputs an approximation of the square root of that number. In this solution I used the math module to calculate the square root of the number inputted by the user and the round function to round the output to one decimal place. 
 
+**Further reading and references**
+
+**8. Solution_8.py**
+
+This file contains my solution to problem 8 on the problem set. The program outputs todays date and time in the format - Monday, January 10th 2019 at 1:15pm. 
+
+**Further reading and references**
+
+**9. Solution_9.py**
+
+This file contains my solution to problem 9 on the problem set. The program reads in a text file and outputs every second line. The program takes the filename from an argument on the command line. 
+
+**Further reading and references**
+* We covered this material in the week 7 lecture video- "opening files for reading and writing"
+* The with open command is the recommended way to open a file from the command line as the file is closed automatically after operation
+* I read about the with open keyword here: https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 
 
 ## References 
