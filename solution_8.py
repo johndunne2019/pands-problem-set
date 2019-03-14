@@ -1,6 +1,8 @@
-# This program outputs todays date 
+# This program outputs todays date in the format Monday, January 10th 2019 at 1:15pm
 # John Dunne 2019-03-12
 
+# I have to return to this solution later in order to have the date printed in the format January 10th
+print("The current date and time is:") 
 import datetime as dt   # I have imported the datetime module which will be used to check the current date and time
 today= dt. datetime.today()  # I have asked the datetime module to make today equal to the current date and time
 print(today.strftime("%A, %B %d %Y at %H:%M%p"))
