@@ -35,13 +35,19 @@ John Dunne
  This file contains my solution to problem 2 in the Problem Set which outputs whether or not today is a day beginning with the letter T. The datetime module is used in this solution and within the datetime module I have used the weekday() function to identify the weekday. From my research online I found out the weekday () function returns an integer which corresponds to the day of the week. I used an if statement to check whether the current day is Tuesday or Thursday which in this case is 1 and 3 using the weekday() function. I used the "or" logical operator to check both conditions in the same line. An else statement is used to print an output for the other days of the week that are not given an output as a result of the if statement. 
 
 **Further reading and references**
-* I read about the datetime function here:  https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date-in-python
+* I read about the datetime module here: https://docs.python.org/3/library/datetime.html and https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date-in-python
 * I read about the weekday() function here: https://pythontic.com/datetime/date/weekday
 * I researched how to use an "or" statement here which allowed me to check for both Tuesday and Thursday in one line: https://www.w3schools.com/python/python_conditions.asp
 
 **3. Solution_3.py**
 
-This file contains my solution to problem 3 in the Problem Set which prints all numbers between 1,000 and 10,000 that are divisible by 6 but not divisible by 12. In this solution I established a range of numbers between 1,000 and 10,000 and and used an if statement to check the conditions outlined in the program. I used the "and" keyword to check both conditions in one line of code.
+This file contains my solution to problem 3 in the Problem Set which prints all numbers between 1,000 and 10,000 that are divisible by 6 but not divisible by 12. In this solution I established a range of numbers between 1,000 and 10,000 and used an if statement to check the conditions outlined in the program. I used the "and" keyword to check both conditions in one line of code. I checked the conditions of the if statement by using the modulo operator to check the remainder when each number in the range was divided by 6 and 12. From my additional reading I learnt that the modulo operator yields the remainder of the division of the first argument by the second argument. Using modulo I was able to ask in the if statement for numbers whose remainder when divided by six was zero and the remainder when divided by twelve was not zero to be printed. 
+
+**Further reading and references**
+* I wrote this program myself drawing on learnings from lectures and from extra reading detailed below
+* Modulo operator to check remainder after division: https://docs.python.org/3.3/reference/expressions.html
+* Range: https://docs.python.org/3/tutorial/controlflow.html#the-range-function and https://www.w3schools.com/python/ref_func_range.asp
+* I read about the "and" logical operator here which I used to check both conditions in one line:  https://www.w3schools.com/python/python_conditions.asp
 
 **4. Solution_4.py**
 
