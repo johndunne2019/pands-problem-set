@@ -32,10 +32,11 @@ John Dunne
 
 **2. Solution_2.py**
 
- This file contains my solution to problem 2 in the Problem Set which outputs whether or not today is a day beginning with the letter T. The datetime module is used in this solution and there is an if statement used to check whether the current day is Tuesday or Thursday. I used the "or" keyword to check both conditions in the same line. An else statement is used to print an output for the other days of the week that are not given an output as a result of the if statement. 
+ This file contains my solution to problem 2 in the Problem Set which outputs whether or not today is a day beginning with the letter T. The datetime module is used in this solution and within the datetime module I have used the weekday() function to identify the weekday. From my research online I found out the weekday () function returns an integer which corresponds to the day of the week. I used an if statement to check whether the current day is Tuesday or Thursday which in this case is 1 and 3 using the weekday() function. I used the "or" logical operator to check both conditions in the same line. An else statement is used to print an output for the other days of the week that are not given an output as a result of the if statement. 
 
 **Further reading and references**
 *I read about the datetime function here:  https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date-in-python
+*I read about the weekday() function here: https://pythontic.com/datetime/date/weekday
 *I researched how to use an "or" statement here which allowed me to check for both Tuesday and Thursday in one line: https://www.w3schools.com/python/python_conditions.asp
 
 3. Solution_3.py contains my solution to problem 3 in the Problem Set which prints all numbers between 1,000 and 10,000 that are divisible by 6 but not divisible by 12. In this solution I established a range of numbers between 1,000 and 10,000 and and used an if statement to check the conditions outlined in the program. I used the "and" keyword to check both conditions in one line of code.
