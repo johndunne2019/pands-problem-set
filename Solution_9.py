@@ -5,7 +5,7 @@ with open('myfile.txt', 'a') as f:
     f.write("I first asked for the file to open in 'w' mode to write the first line\n")
     f.write("Opening a file with 'w' overwrites the contents of the entire file\n")
     f.write("I then used 'a' to append the text here to the existing text\n")
-    f.write("\n is used to go to a new line each time")
+    f.write("backslash n is used to go to a new line each time\n")
     f.write("In this program I will attempt to have every second line of the file printed to the screen\n")
      # I have to save a txt file to be read and return to finish this program to read every second line later
 
