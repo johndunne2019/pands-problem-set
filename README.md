@@ -85,9 +85,16 @@ This file contains my solution to problem 6 on the problem set. The program take
 
 **8. Solution_8.py**
 
-This file contains my solution to problem 8 on the problem set. The program outputs todays date and time in the format - Monday, January 10th 2019 at 1:15pm. 
+This file contains my solution to problem 8 on the problem set. The program outputs todays date and time in the format - Monday, January 10th 2019 at 1:15pm. We covered the datetime module in the week 6 lecture "modules" and this was the starting point in creating my solution for this problem. In this program I have imported the datetime module and given it the shortened name dt. I used the today() funciton to return the local date and time set and I have asked for today to be printed as output using strftime. strftime is used return a string representation of date and time which we studied in the week 6 lectures "modules". From the week 6 lecture on modules and my extra reading I learnt that the date output can be formatted using the strftime function. I used format tokens to format the output that is printed to the screen to have the week day and month printed in full etc. 
 
 **Further reading and references**
+* I wrote this program myself using the example we covered in the week 6 lecture on modules as a starting point and completing additional research and reading online. 
+* We covered the datetime module in the week 6 lecture called "modules"
+* I completed additional reading on the datetime module here: https://docs.python.org/3/library/datetime.html
+* We also covered the strftime function in this week 6 lecture 
+* I completed additional reading about strftime here: https://www.w3schools.com/python/python_datetime.asp and https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior
+* I read about format tokens to format the date output in strftime here: https://stackabuse.com/how-to-format-dates-in-python/ and http://strftime.org/
+* I used these format tokens to print the current date and time to the screen in the format requested in the problem
 
 **9. Solution_9.py**
 
