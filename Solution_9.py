@@ -2,9 +2,9 @@
 # John Dunne 2019-03-14
 
 with open ('myfile.txt', 'r') as f:
-   s =  f.readline()
-   print(s)
-     # I have to save a txt file to be read and return to finish this program to read every second line later
+   for line in f:
+      print(line)
+     # I can also use a for loop to print the lines in the file"
 
 # We covered this material in the week 7 lecture video- "opening files for reading and writing"
 # The with open command is the recommended way to open a file from the command line as the file is closed automatically after operation
@@ -23,3 +23,4 @@ with open ('myfile.txt', 'r') as f:
     #f.write("I then used 'a' to append the text here to the existing text\n")
     #f.write("backslash n is used to go to a new line each time\n")
     #f.write("In this program I will attempt to have every second line of the file printed to the screen\n")
+    #f.write("In the last line I am not putting a blackslash end")
