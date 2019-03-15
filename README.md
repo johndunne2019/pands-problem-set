@@ -2,7 +2,7 @@
 
 This repository contains my solutions to the Problem set 2019 for the module Programming and Scripting at GMIT.
 See here for the instructions - https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf.
-The problem set consists of ten problems assigned to me as part of my learning in the Programming and Scripting module. I worked to solve all ten problems through a combination of watching the lectures on a weekly basis, extra reading and research online and implementing these learnings order to develop the solutions to each problem. 
+The problem set consists of ten problems assigned to me as part of my learning in the Programming and Scripting module. I worked to solve all ten problems through a combination of watching the lectures on a weekly basis, extra reading and research online and implementing these learnings in order to develop the solutions to each problem. 
 In developing this Readme file I researched how to format the file and what headings should be included at the following links: https://en.support.wordpress.com/markdown-quick-reference/ and https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
 
 ## Author
@@ -62,11 +62,13 @@ This file contains my solution to problem 4 on the problem set. The program asks
 
 **5. Solution_5.py**
 
-This file contains my solution to solution 5 on the problem set. This program asks the user to input any positive integer and it tells the user if it is a prime number or not. A prime number is a whole number greater than 1 divisible only by itself and 1. If a number is divisible by any other number it is not a prime number. In this solution a range is established between 2 and one less than the number inputted by the user. A for loop with an if statement embedded will run for each number in the range to detect if any number in the range is divisible by the number inputted in which case the number is proven not to be a prime. If no divisor is detected in the if statement the break keyword has been used to break out of the loop and an else statement runs to tell the user the number is a prime. I have also added a feature whereby if the user enters a number less than or equal to 1 they are prompted to enter only a number greater than 1.  
+This file contains my solution to problem 5 on the problem set. This program asks the user to input any positive integer and it tells the user if it is a prime number or not. A prime number is a whole number greater than 1 divisible only by itself and 1. If a number is divisible by any other number it is not a prime number. In this solution a range is established between 2 and one less than the number inputted by the user. A for loop with an if statement embedded will run for each number in the range to detect if any number in the range is divisible by the number inputted in which case the number is proven not to be a prime. If no divisor is detected in the if statement the break keyword has been used to break out of the loop and an else statement runs to tell the user the number is a prime. I have also added a feature whereby if the user enters a number less than or equal to 1 they are prompted to enter only a number greater than 1.  
 
 **Further reading and references**
 * This code is adapted from the example we covered in the week 4 lecture on break and continue keywords - https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
 * I have also added a feature whereby if the user enters a number less than or equal to 1 they are prompted to enter only a positive number.
+* Break: https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops and https://www.w3schools.com/python/python_while_loops.asp
+
 
 
 **6. Solution_6.py**
