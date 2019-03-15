@@ -79,9 +79,12 @@ This file contains my solution to problem 6 on the problem set. The program take
 
 **7. Solution_7.py**
 
- This file contains my solution to problem 7 on the problem set. This is a program that takes a positive floating point number inputted by the user and outputs an approximation of the square root of that number. In this solution I used the math module to calculate the square root of the number inputted by the user and the round function to round the output to one decimal place. 
-
+ This file contains my solution to problem 7 on the problem set. This is a program that takes a positive floating point number inputted by the user and outputs an approximation of the square root of that number. In this solution I used the math.sqrt function within the math module to calculate the square root of the number inputted by the user and the round function to round the output to one decimal place. The program works by asking the user to input a positive floating point number which is assigned a variable. In order to have both the original floating point number entered by the user and the square root both printed to the screen in the output I introduced a second variable which will be used to store the square root value when calculated. In my first attempt at writing the program the output was being printed to the screen in its full form and so I did some additional reading to find out how to have the floating point number output rounded to one decimal place. When the program is executed the 2 variables are printed to the screen - the original value entered by the user and the approximation of the square root of that value. The program runs within a function that I created called sq_root. 
+ 
 **Further reading and references**
+* I wrote this program myself using some additional research and reading as outlined below:
+* I read about the math module and the math.sqrt function with the math module here: https://docs.python.org/3/library/math.html
+* I read about the round function here: https://www.programiz.com/python-programming/methods/built-in/round
 
 **8. Solution_8.py**
 
