@@ -1,11 +1,9 @@
 # This program reads in a text file from a prompt on the command line and outputs every second line of the text file
-# John Dunne 2019-03-08
-with open('myfile.txt', 'a') as f: 
-    f.write("In the last line I am not putting a blackslash end")
+# John Dunne 2019-03-14
 
-#with open ('myfile.txt', 'r') as f:
- #  s =  f.readline()
-  # print(s)
+with open ('myfile.txt', 'r') as f:
+   s =  f.readline()
+   print(s)
      # I have to save a txt file to be read and return to finish this program to read every second line later
 
 # We covered this material in the week 7 lecture video- "opening files for reading and writing"
