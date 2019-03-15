@@ -83,8 +83,8 @@ This file contains my solution to problem 6 on the problem set. The program take
  
 **Further reading and references**
 * I wrote this program myself using some additional research and reading as outlined below:
-* I read about the math module and the math.sqrt function with the math module here: https://docs.python.org/3/library/math.html
-* I read about the round function here: https://www.programiz.com/python-programming/methods/built-in/round
+* In developing this program I used the math.sqrt function with the math module to calculate the square root of a number inputted by the user.I read about the math module and the math.sqrt function here: https://docs.python.org/3/library/math.html
+* I needed the output to be an approximation of the square root and so I used the round function to round the result of the math.sqrt calculation to one decimal place, I read about the round function here: https://www.programiz.com/python-programming/methods/built-in/round
 
 **8. Solution_8.py**
 
@@ -115,7 +115,5 @@ This file contains my solution to problem 9 on the problem set. The program read
 
 
 ## References 
-## In this section I detail references and extra reading and research I completed during development of my solutions to this problem set
-5. Solution_5.py - The code written here is adapted from the lecture we did in week 4 on the break and continue keywords in Python. The code we looked at is shown here: https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops I have also added a feature whereby if the user enters a number less than or equal to 1 they are prompted to enter only a number greater than 1.  
+## In this section I detail references and extra reading and research I completed during development of my solutions to this problem set 
 6. Solution_6.py - We covered the .split and .join functions in week 7 lecture called fstrings: https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str  I read how to use the shortcut *s here: https://www.reddit.com/r/learnpython/comments/6b96j3/beginner_how_to_remove_square_bracket_and/ 
-7. Solution_7.py - In developing this program I used the math module to calculate the square root of a number inputted by the user. I read about the math.sqrt module here: https://docs.python.org/3/library/math.html I needed the output to be an approximation of the square root and so I used the round function to round the result of the math.sqrt calculation to one decimal place, I read about the round function here: https://www.programiz.com/python-programming/methods/built-in/round
