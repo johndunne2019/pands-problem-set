@@ -5,3 +5,4 @@ Opening a file with 'w' overwrites the contents of the entire file
 I then used 'a' to append the text here to the existing text
 backslash n is used to go to a new line each time
 In this program I will attempt to have every second line of the file printed to the screen
+In the last line I am not putting a blackslash end
