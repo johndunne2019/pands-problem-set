@@ -91,12 +91,14 @@ This file contains my solution to problem 8 on the problem set. The program outp
 
 **9. Solution_9.py**
 
-This file contains my solution to problem 9 on the problem set. The program reads in a text file and outputs every second line. The program takes the filename from an argument on the command line. 
+This file contains my solution to problem 9 on the problem set. The program reads in a text file and outputs every second line. The program takes the filename from an argument on the command line. The first thing I did was create a new text file and I used the with open command to open the file in 'w' mode which is write mode. I then asked for a line to be printed to the file. I then reopened the file in 'a' mode which appends text to the existing text in the file. In order to have lines printed from the file when the program runs the file should be opened in 'r' mode for reading. 
 
 **Further reading and references**
 * We covered this material in the week 7 lecture video- "opening files for reading and writing"
 * The with open command is the recommended way to open a file from the command line as the file is closed automatically after operation
 * I read about the with open keyword here: https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+* I read about writing to a file: https://www.w3schools.com/python/python_file_write.asp
+* I read about reading a file: https://www.w3schools.com/python/python_file_open.asp and https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 
 
 ## References 

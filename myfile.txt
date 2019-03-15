@@ -1,1 +1,7 @@
 This file will be used to run the program in solution 9 on the problem set
+I have written the text in this file from solution_9.py file
+I first asked for the file to open in 'w' mode to write the first line
+Opening a file with 'w' overwrites the contents of the entire file
+I then used 'a' to append the text here to the existing text
+
+ is used to go to a new line each timeIn this program I will attempt to have every second line of the file printed to the screen
