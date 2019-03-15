@@ -85,6 +85,7 @@ This file contains my solution to problem 6 on the problem set. The program take
 * I wrote this program myself using some additional research and reading as outlined below:
 * In developing this program I used the math.sqrt function with the math module to calculate the square root of a number inputted by the user.I read about the math module and the math.sqrt function here: https://docs.python.org/3/library/math.html
 * I needed the output to be an approximation of the square root and so I used the round function to round the result of the math.sqrt calculation to one decimal place, I read about the round function here: https://www.programiz.com/python-programming/methods/built-in/round
+* I added curly brackets when printing the variables after watching the week 7 lecture video "fstrings"
 
 **8. Solution_8.py**
 

@@ -10,9 +10,10 @@ def sq_root(): # I created a function called sq_root
   y = x # I have added a second variable y as I want to have 2 variables printed to the screen in my final output
   y = math.sqrt(x) # The new value of y will be changed to the square root of x calculated by the math.sqrt module here
   y = (round(y, 1)) # The result of the math.sqrt calculation above will be rounded to one decimal place using the round function
-  print("The square root of", x, "is approx", y)  # The output is printed to the screen showing the variables x and y
+  print(f"The square root of {x} is approx {y}")  # The output is printed to the screen showing the variables x and y
 sq_root() # I called the function
 
 # I wrote this program myself using some additional research and reading as outlined below:
 # I read about the math.sqrt module here: https://docs.python.org/3/library/math.html
 # I read about the round function here: https://www.programiz.com/python-programming/methods/built-in/round
+# I used curly brackets to print the variables as I learnt in week 7 lecture "fstrings"
