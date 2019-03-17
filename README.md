@@ -3,6 +3,8 @@
 This repository contains my solutions to the Problem set 2019 for the module Programming and Scripting at GMIT.
 See here for the instructions - https://github.com/ianmcloughlin/problems-pands-2019/raw/master/problems.pdf.
 The problem set consists of ten problems assigned to me as part of my learning in the Programming and Scripting module. I worked to solve all ten problems through a combination of watching the lectures on a weekly basis, extra reading and research online and implementing these learnings in order to develop the solutions to each problem. 
+
+## Readme File
 In developing this Readme file I researched how to format the file and what headings should be included at the following links: https://en.support.wordpress.com/markdown-quick-reference/ and https://gist.github.com/PurpleBooth/109311bb0361f32d87a2
 
 ## Author
