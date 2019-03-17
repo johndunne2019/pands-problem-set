@@ -118,8 +118,3 @@ This file contains my solution to problem 9 on the problem set. The program read
 * I read about writing to a file: https://www.w3schools.com/python/python_file_write.asp
 * Reading and writing to files: https://www.youtube.com/watch?v=YV6qm6erphk&index=23&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_ and https://stackabuse.com/read-a-file-line-by-line-in-python/
 * I read about reading a file: https://www.w3schools.com/python/python_file_open.asp and https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
-
-
-## References 
-## In this section I detail references and extra reading and research I completed during development of my solutions to this problem set 
-6. Solution_6.py - We covered the .split and .join functions in week 7 lecture called fstrings: https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str  I read how to use the shortcut *s here: https://www.reddit.com/r/learnpython/comments/6b96j3/beginner_how_to_remove_square_bracket_and/ 
