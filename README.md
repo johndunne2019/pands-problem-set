@@ -73,9 +73,14 @@ This file contains my solution to problem 5 on the problem set. This program ask
 
 **6. Solution_6.py**
 
-This file contains my solution to problem 6 on the problem set. The program takes a user input string and outputs every second word. I used the .split and .join functions that we covered in week 7 lectures in writing this program. The .split function is used to split the string inputted by the user and take only every second word [::2] forming a list of these words. The .join function is used to join this list back together in string format and this is then printed to the screen. 
+This file contains my solution to problem 6 on the problem set. The program takes a user input string and outputs every second word. I used the .split function that we covered in week 7 lectures in writing this program. The .split function is used to split the string inputted by the user and take only every second word [::2] forming a list of these words. Although we covered the .join function in the week 7 lectures I still struggled to implement this function in the correct way and I had to do some additional research to have this program run correctly. In the end I used the * shortcut to unpack the values in the list that was created by .split and separated them on whitespace with sep ' '. The result of the unpacked list is then printed to the screen as output. As I have separated on whitespace I noticed during testing that punctuation such as quotation marks and commas will be printed to the screen when the program is executed. I could have asked the separator to be a comma but this would not supply the correct output to the user in a case where commas are not used in the input passed in.
 
 **Further reading and references**
+* I wrote this program drawing on the material we covered in week 7 lectures and additional reading detailed below:
+* We covered the .split and .join functions in week 7 lecture "string operations": https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str
+* Additional reading on .split: https://www.w3schools.com/python/ref_string_split.asp and https://www.tutorialspoint.com/python/string_split.htm
+* Additional reading on .join: https://stackoverflow.com/questions/1876191/what-exactly-does-the-join-method-do and https://www.geeksforgeeks.org/join-function-python/
+* I read how to use the shortcut * to unpack lists in python here: https://www.reddit.com/r/learnpython/comments/6b96j3/beginner_how_to_remove_square_bracket_and/, https://thispointer.com/python-how-to-unpack-list-tuple-or-dictionary-to-function-arguments-using/, https://medium.com/understand-the-python/understanding-the-asterisk-of-python-8b9daaa4a558 and https://stackoverflow.com/questions/3480184/unpack-a-list-in-python. This is the method that I used in the final solution to this problem. 
 
 **7. Solution_7.py**
 
