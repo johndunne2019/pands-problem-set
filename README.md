@@ -13,11 +13,17 @@ John Dunne
 ## How to download this repository
 
 1. Go to GitHub
-2. Click the download button
+2. Go to my repository: https://github.com/johndunne2019/pands-problem-set
+3. Click the clone/download button
 
 ## How to run the Code
 
 1. Make sure you have Python installed on your machine
+2. Install Visual Studio Code on your machine if you would like to view/edit the program once downloaded
+3. When you have downloaded the repository to your local machines open your cmder or command prompt
+4. Navigate to the folder location where the repository is saved on the command line by using the cd command (change directory)
+5. To run a program type "python filename" in the command prompt and hit enter. Example to run solution_1.py I would type python solution_1.py and hit enter. 
+6. You may be asked for some input if the particular program runs dependant on user input
 
 ## Contents of my files
 **In this section there is a breakdown on the contents of the files in my repository and some background to the contents of each file and the thought process that went into the writing of each solution. I have also included details of the extra reading I completed and references used**
@@ -53,7 +59,7 @@ This file contains my solution to problem 3 in the Problem Set which prints all 
 
 **4. Solution_4.py**
 
-This file contains my solution to problem 4 on the problem set. The program asks the user to input any positive integer and outputs the successive values of the following calculation: the current value is taken at each step and if it is even it is divided by 2 and if it is odd it is multiplied by 3 and 1 is added to the value. The program stops when the current value of the number is 1. This is known as Collatz Conjecture and no matter what number is inputted at the beginning of this calculation the result always arrives to 1. I created a function called odd_even and within the function I set up a while loop and set it to loop as long as the variable which in this case is the integer inputted by the user is greater than 1. Within this loop I used an if statement to identify even numbers with the modulo operator and I used an else statement to pick up all other integers (odd numbers). Within the if and else statements I assigned the new values to the variable in order to complete the calculation. When the function is called the while loop runs as long as the number inputted by the user is greater than 1 and the results are printed to the screen. I also asked for the original value entered by the user to be printed to the screen first before the execution of the while loop. I researched how to have to output printed horizontally in output and learnt that the "end =" command is one way of achieving this. 
+This file contains my solution to problem 4 on the problem set. The program asks the user to input any positive integer and outputs the successive values of the following calculation: the current value is taken at each step and if it is even it is divided by 2 and if it is odd it is multiplied by 3 and 1 is added to the value. The program stops when the current value of the number is 1. This is known as Collatz Conjecture and no matter what number is inputted at the beginning of this calculation the result always arrives to 1. I created a function called odd_even and within the function I set up a while loop and set it to loop as long as the variable which in this case is the integer inputted by the user is greater than 1. Within this loop I used an if statement to identify even numbers with the modulo operator and I used an else statement to pick up all other integers (odd numbers). Within the if and else statements I assigned the new values to the variable in order to complete the calculation. When the function is called the while loop runs as long as the number inputted by the user is greater than 1 and the results are printed to the screen. I also asked for the original value entered by the user to be printed to the screen first before the execution of the while loop. I researched how to have to output printed horizontally in output and learnt that the "end =" command is one way of achieving this. During testing I noted that its necessary to set the while loop to run when the number is greater than one only as without this the program would be stuck in an infinite loop. 
 
 **Further reading and references**
 * I wrote this program myself drawing on learnings from lectures and from extra reading detailed below
@@ -96,7 +102,7 @@ This file contains my solution to problem 6 on the problem set. The program take
 
 **8. Solution_8.py**
 
-This file contains my solution to problem 8 on the problem set. The program outputs todays date and time in the format - Monday, January 10th 2019 at 1:15pm. We covered the datetime module in the week 6 lecture "modules" and this was the starting point in creating my solution for this problem. In this program I have imported the datetime module and given it the shortened name dt. I used the today() funciton to return the local date and time set and I have asked for today to be printed as output using strftime. strftime is used return a string representation of date and time which we studied in the week 6 lectures "modules". From the week 6 lecture on modules and my extra reading I learnt that the date output can be formatted using the strftime function. I used format tokens to format the output that is printed to the screen to have the week day and month printed in full etc. 
+This file contains my solution to problem 8 on the problem set. The program outputs todays date and time in the format - Monday, January 10th 2019 at 1:15pm. We covered the datetime module in the week 6 lecture "modules" and this was the starting point in creating my solution for this problem. In this program I have imported the datetime module and given it the shortened name dt. I used the today() function to return the local date and time set and I have asked for today to be printed as output using strftime. strftime is used to return a string representation of date and time which we studied in the week 6 lectures "modules". From the week 6 lecture on modules and my extra reading I learnt that the date output can be formatted using the strftime function. I used format tokens to format the output that is printed to the screen to have the week day and month printed in full etc. The format tokens I used in strftime were: %A - Weekday full, %B - month name in full, %d - day of the week, %Y- year in full, %H - hour, %M - minute and %p - AM/PM
 
 **Further reading and references**
 * I wrote this program myself using the example we covered in the week 6 lecture on modules as a starting point and completing additional research and reading online. 
