@@ -5,10 +5,11 @@
 print("This program takes a positive integer and outputs the sum of all numbers between one and that number")
 # I have added this line to explain to the user how this program works
 
-i = int(input("Please Enter a Positive Integer:")) #Here I am asking the user to enter any positive integer in order to run the program
-# The positive integer entered by the user will be assigned the variable value of i
+i = int(input("Please Enter a Positive Integer:")) #The user is asked for an input which will be assigned variable value i
+
 if i < 0: # I have added this feature to give the user a message if they enter any number less than zero
     print("Please enter only a positive integer, this program does not operate on negative numbers")
+    
 if i > 0: # When a positive integer greater than zero is entered the program runs as below
   i  = i + 1  # I have added one to the value of i as I want to establish a range between 1 and i in the next step
   x = range (1, i) # I have established a range of numbers between 1 and i, i being the number the user entered plus 1 
