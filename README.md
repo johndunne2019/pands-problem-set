@@ -20,7 +20,7 @@ John Dunne
 1. Make sure you have Python installed on your machine
 
 ## Contents of my files
-**In this section there is a breakdown on the contents of the files in my repository and some background to the contents of each file and the thought process that went into the writing of each file**
+**In this section there is a breakdown on the contents of the files in my repository and some background to the contents of each file and the thought process that went into the writing of each solution. I have also included details of the extra reading I completed and references used**
 
 **1. Solution_1.py**
 
@@ -120,3 +120,10 @@ This file contains my solution to problem 9 on the problem set. The program read
 * I read about writing to a file: https://www.w3schools.com/python/python_file_write.asp
 * Reading and writing to files: https://www.youtube.com/watch?v=YV6qm6erphk&index=23&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_ and https://stackabuse.com/read-a-file-line-by-line-in-python/
 * I read about reading a file: https://www.w3schools.com/python/python_file_open.asp and https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+
+**9. myfile.txt**
+
+This file is a text file that I created for the purpose of completing solution 9 on the problem set. The sole purpose of this file is for the program that I have written in solution_9.py to read lines from the file. I wrote this file myself from the command line using the 'w' command to wrote to the file and the 'a' command to append text to the file. 
+
+**10. Solution_10.py**
+
