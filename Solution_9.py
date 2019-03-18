@@ -1,6 +1,7 @@
 # This program reads in a text file from a prompt on the command line and outputs every second line of the text file
 # John Dunne 2019-03-14
-print("This program is reading every second line of the file called myfile.txt")
+# This program is adapted from the reading I completed here: https://stackoverflow.com/questions/30551945/how-do-i-get-python-to-read-only-every-other-line-from-a-file-that-contains-a-po
+
 with open ('myfile.txt', 'r') as f:  # with open is used to open the file and I have asked for read mode 
    count = 0  # count is set to 0 for the first iteration of the for loop
    for line in f:  # for loop is used to loop through the lines in the file
@@ -8,10 +9,9 @@ with open ('myfile.txt', 'r') as f:  # with open is used to open the file and I 
       if count % 2 == 0:  # Modulo operator used to establish if the line is an even numbered line (every second line)
          print(line)  # Every second line will be printed as output
 
-# This program is adapted from the reading I completed here: https://stackoverflow.com/questions/30551945/how-do-i-get-python-to-read-only-every-other-line-from-a-file-that-contains-a-po
 # Count is used to assign a starting value of zero to the first line in a file and a for loop will loop through each line of the file
 # Every time the loop runs one is added to the value of count and an if statement with modulo operator will identify even numbered lines 
-# Example - In the first iteration of the for loop the firs line is assigned value of one and thus wont be printed and so on
+# Example - In the first iteration of the for loop the first line is assigned value of one and thus wont be printed and so on
 # Finally all even numbered lines are printed to the screen as output
 # We covered this material in the week 7 lecture video- "opening files for reading and writing"
 # The with open command is the recommended way to open a file from the command line as the file is closed automatically after operation
