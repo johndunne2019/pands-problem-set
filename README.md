@@ -12,18 +12,22 @@ John Dunne
 
 ## How to download this repository
 
-1. Go to GitHub
+1. Go to GitHub.
 2. Go to my repository: https://github.com/johndunne2019/pands-problem-set
-3. Click the clone/download button
+3. Click the clone/download button.
+4. Save the repository to a local folder location on your machine.
+5. You will need to navigate to this folder location on the command line in order to run the program.
 
 ## How to run the Code
 
-1. Make sure you have Python installed on your machine
-2. Install Visual Studio Code on your machine if you would like to view/edit the program once downloaded
-3. When you have downloaded the repository to your local machines open your cmder or command prompt
-4. Navigate to the folder location where the repository is saved on the command line by using the cd command (change directory)
+1. Make sure you have Python installed on your machine.
+2. Install Visual Studio Code on your machine if you would like to view/edit the program once downloaded.
+3. When you have downloaded the repository to your local machine open your cmder or command prompt.
+4. Navigate to the folder location where the repository is saved on the command line by using the cd command (change directory).
 5. To run a program type "python filename" in the command prompt and hit enter. Example to run solution_1.py I would type python solution_1.py and hit enter. 
-6. You may be asked for some input if the particular program runs dependant on user input
+6. You may be asked for some input if the particular program is dependant on user input.
+7. If you are asked for an input enter the input and press enter.
+8. The program will run and the output will be returned on the command line.
 
 ## Contents of my files
 **In this section there is a breakdown on the contents of the files in my repository and some background to the contents of each file and the thought process that went into the writing of each solution. I have also included details of the extra reading I completed and references used**
