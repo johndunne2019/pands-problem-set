@@ -77,7 +77,7 @@ This file contains my solution to problem 4 on the problem set. The program asks
 This file contains my solution to problem 5 on the problem set. This program asks the user to input any positive integer and it tells the user if it is a prime number or not. A prime number is a whole number greater than 1 divisible only by itself and 1. If a number is divisible by any other number it is not a prime number. In this solution a range is established between 2 and one less than the number inputted by the user. A for loop with an if statement embedded will run for each number in the range to detect if any number in the range is divisible by the number inputted in which case the number is proven not to be a prime. If no divisor is detected in the if statement the break keyword has been used to break out of the loop and an else statement runs to tell the user the number is a prime. I have also added a feature whereby if the user enters a number less than or equal to 1 they are prompted to enter only a number greater than 1. After watching the week 7 lecture "fstrings" I returned to this solution and changed the format of my output messaged to return the number entered by the user in curly braces. 
 
 **Further reading and references**
-* This code is adapted from the example we covered in the week 4 lecture on break and continue keywords - https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
+* This program is adapted from the example we covered in the week 4 lecture on break and continue keywords: https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
 * I have also added a feature whereby if the user enters a number less than or equal to 1 they are prompted to enter only a positive number.
 * Break: https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops and https://www.w3schools.com/python/python_while_loops.asp
 
@@ -100,8 +100,8 @@ This file contains my solution to problem 6 on the problem set. The program take
  
 **Further reading and references**
 * I wrote this program myself using some additional research and reading as outlined below:
-* In developing this program I used the math.sqrt function with the math module to calculate the square root of a number inputted by the user.I read about the math module and the math.sqrt function here: https://docs.python.org/3/library/math.html
-* I needed the output to be an approximation of the square root and so I used the round function to round the result of the math.sqrt calculation to one decimal place, I read about the round function here: https://www.programiz.com/python-programming/methods/built-in/round
+* In developing this program I used the math.sqrt function within the math module to calculate the square root of a number inputted by the user.I read about the math module and the math.sqrt function here: https://docs.python.org/3/library/math.html, https://www.ict.social/python/basics/importing-modules-and-the-math-module-in-python and https://www.tutorialspoint.com/python/number_sqrt.htm
+* I needed the output to be an approximation of the square root and so I used the round function to round the result of the math.sqrt calculation to one decimal place, I read about the round function here: https://www.programiz.com/python-programming/methods/built-in/round and https://www.w3schools.com/python/ref_func_round.asp
 * I added curly brackets when printing the variables after watching the week 7 lecture video "fstrings"
 
 **8. Solution_8.py**
@@ -112,8 +112,7 @@ This file contains my solution to problem 8 on the problem set. The program outp
 * I wrote this program myself using the example we covered in the week 6 lecture on modules as a starting point and completing additional research and reading online. 
 * We covered the datetime module in the week 6 lecture called "modules"
 * I completed additional reading on the datetime module here: https://docs.python.org/3/library/datetime.html
-* We also covered the strftime function in this week 6 lecture 
-* I completed additional reading about strftime here: https://www.w3schools.com/python/python_datetime.asp and https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior
+* We also covered the strftime function in this week 6 lecture. I completed additional reading about strftime here: https://www.w3schools.com/python/python_datetime.asp and https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior
 * I read about format tokens to format the date output in strftime here: https://stackabuse.com/how-to-format-dates-in-python/ and http://strftime.org/
 * I used these format tokens to print the current date and time to the screen in the format requested in the problem
 
@@ -122,8 +121,8 @@ This file contains my solution to problem 8 on the problem set. The program outp
 This file contains my solution to problem 9 on the problem set. The program reads in a text file and outputs every second line of the file. The program takes the filename from an argument on the command line. The first thing I did was create a new text file and I used the with open command to open the file in 'w' mode which is write mode. I then asked for a line to be printed to the file. I then reopened the file in 'a' mode which appends text to the existing text in the file. I used backslash n to move to a new line each time I asked for a new line to be printed to the file. In order to have lines printed from the file when the program runs the file should be opened in 'r' mode for reading. I used f.read() to print the full contents of the file to the screen and f.readline() to print one line only. I first wrote my program using a for loop to loop through the file and print all lines as output. I had to complete additional research to see how to have every second line as output. In my finished program a count is set at zero for the first line of the file and a for loop will loop through each line of the file. At each iteration of the for loop one is added to the value of count. An if statement with a modulo operator will check if the line is an even numbered line and if so I have asked for that line to the printed to the screen. The program ends when all lines in the file have been read. An example of how the program works is as follows: The first line of the file has been set as count zero and when the for loop runs for the first time the value of count is set to one first and then an if statement uses the modulo operator to check if the line is assigned an even or odd numbered value. In this case it is an odd number one and so the line is not printed to the screen. On the second iteration of the for loop the value will be an even number and will be printed as output. 
 
 **Further reading and references**
-* This program is adapted from extra reading I completed: https://stackoverflow.com/questions/30551945/how-do-i-get-python-to-read-only-every-other-line-from-a-file-that-contains-a-po
-* I completed this extra reading in order to find out how to have every second line of the file printed as output, I had written the program with a for loop printing all the lines of the file to the screen but I needed extra research to see how to print every second line. 
+* This program is adapted from: https://stackoverflow.com/questions/30551945/how-do-i-get-python-to-read-only-every-other-line-from-a-file-that-contains-a-po
+* I completed this extra reading in order to find out how to have every second line of the file printed as output, I had written the program with a for loop printing all the lines of the file to the screen but I needed extra research to see how to print every second line
 * We covered this material in the week 7 lecture video- "opening files for reading and writing"
 * The with open command is the recommended way to open a file from the command line as the file is closed automatically after operation
 * I read about the with open keyword here: https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
