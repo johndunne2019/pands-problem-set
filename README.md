@@ -37,19 +37,22 @@ John Dunne
  This file contains my solution to problem 1 in the Problem Set which asks the user to input a positive integer and outputs the sum of all numbers between one and that number. In this solution I added a feature to return a message to the user asking them to only enter a positive integer if the number entered by them is less than zero. This feature is an if statement that prints this message to the screen if the user has entered an input less than zero.  In a similar way I have used an if statement to ensure the program is only run where the input is greater than one. I asked for one to be added to the users input and then established a range between 1 and the new value of the variable. The reason I increased the value the user entered by one is because this is necessary to have an accurate range. The sum function is then used to sum all the numbers in the range and print them to the screen. In the solution I used 3 variables- the number entered by the user, a new variable (the number entered by the user plus one) used to establish the range and a third variable which will be the sum of the range. I used fstring to print an output string to the screen when the program runs. 
 
 **Further reading and references**
-* I developed this solution myself and I have included below some links where I did additional reading on if statements, range and sum functions which form a core part of this solution. 
+* I developed this solution myself and I have included below some links where I did additional reading on asking the user for an input, if statements, range and sum functions which form a core part of this solution and fstrings which I used to format the output.  
+* We covered the int(input) to take a user input in the week 4 lecture about while and for loops: https://web.microsoftstream.com/video/20963781-2aea-4302-ba73-5b8f327f4189 and I also completed additional research: https://stackabuse.com/getting-user-input-in-python/
 * Sum: https://www.w3schools.com/python/ref_func_sum.asp and https://docs.python.org/3/library/functions.html
-* if statements: https://docs.python.org/3/tutorial/controlflow.html#if-statements and https://www.w3schools.com/python/python_conditions.asp
+* if statements: Covered in week 4 lecture on conditionals: https://web.microsoftstream.com/video/82894055-5147-487d-ab35-6bf5c51cd889 and additional reading:  https://docs.python.org/3/tutorial/controlflow.html#if-statements and https://www.w3schools.com/python/python_conditions.asp
 * Range: https://docs.python.org/3/tutorial/controlflow.html#the-range-function and https://www.w3schools.com/python/ref_func_range.asp
-* I learnt about fstrings to format output in week 7 lectures and also additional reading here: https://realpython.com/python-f-strings/
+* I learnt about fstrings to format output in week 7 lectures: https://web.microsoftstream.com/video/521b97db-d935-4351-a748-77f044770f24 and also additional reading here: https://realpython.com/python-f-strings/
 
 **2. Solution_2.py**
 
  This file contains my solution to problem 2 in the Problem Set which outputs whether or not today is a day beginning with the letter T. The datetime module is used in this solution and within the datetime module I have used the weekday() function to identify the weekday. From my research online I found out the weekday () function returns an integer which corresponds to the day of the week. I used an if statement to check whether the current day is Tuesday or Thursday which in this case is 1 and 3 using the weekday() function. I used the "or" logical operator to check both conditions in the same line. An else statement is used to print an output for the other days of the week that are not given an output as a result of the if statement. 
 
 **Further reading and references**
-* I read about the datetime module here: https://docs.python.org/3/library/datetime.html and https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date-in-python
+* I used the example we covered in the week 1 lecture "Run a python program": https://web.microsoftstream.com/video/cd3347c4-8296-4e8c-bb63-01ef5452de17 as a starting point in writing this program and further developed the solution through additional research listed below.  
+I read about the datetime module here: https://docs.python.org/3/library/datetime.html and https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date-in-python
 * I read about the weekday() function here: https://pythontic.com/datetime/date/weekday
+* I learnt about else statements in the week 4 lecture on conditionals: https://web.microsoftstream.com/video/82894055-5147-487d-ab35-6bf5c51cd889
 * I researched how to use an "or" statement here which allowed me to check for both Tuesday and Thursday in one line: https://www.w3schools.com/python/python_conditions.asp
 
 **3. Solution_3.py**
@@ -68,8 +71,8 @@ This file contains my solution to problem 4 on the problem set. The program asks
 
 **Further reading and references**
 * I wrote this program myself drawing on learnings from lectures and from extra reading detailed below
-* We covered Functions in week 6 lectures and I did supplementary reading here: https://docs.python.org/3/tutorial/controlflow.html#defining-functions and https://www.youtube.com/watch?v=j2xhtI0WTew&index=12&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
-* While loops: https://docs.python.org/3/reference/compound_stmts.html#while and https://www.w3schools.com/python/python_while_loops.asp
+* We covered Functions in a week 6 lecture: https://web.microsoftstream.com/video/e6917b8f-87f4-444a-9141-96fb6c6ea799 and I did supplementary reading here: https://docs.python.org/3/tutorial/controlflow.html#defining-functions and https://www.youtube.com/watch?v=j2xhtI0WTew&index=12&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
+* While loops: Covered in week 4 lecture:https://web.microsoftstream.com/video/20963781-2aea-4302-ba73-5b8f327f4189 and additional reading: https://docs.python.org/3/reference/compound_stmts.html#while and https://www.w3schools.com/python/python_while_loops.asp
 * Modulo operator: https://docs.python.org/3.3/reference/expressions.html
 * "end =" to print the output horizontally: https://stackoverflow.com/questions/8437964/python-printing-horizontally-rather-than-current-default-printing
 
@@ -80,10 +83,8 @@ This file contains my solution to problem 5 on the problem set. This program ask
 **Further reading and references**
 * This program is adapted from the example we covered in the week 4 lecture on break and continue keywords: https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
 * I have also added a feature whereby if the user enters a number less than or equal to 1 they are prompted to enter only a positive number.
-* Break: https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops and https://www.w3schools.com/python/python_while_loops.asp
-* I changed the output to use f strings after watching the week 7 lecture video "fstrings" and also some additional reading here: https://realpython.com/python-f-strings/
-
-
+* Break: Covered in the week 4 lecture: https://web.microsoftstream.com/video/3ef695e3-9155-4487-b48e-0867834c76ad and additional reading: https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops and https://www.w3schools.com/python/python_while_loops.asp
+* I changed the output to use f strings after watching the week 7 lecture video on formatted strings: https://web.microsoftstream.com/video/521b97db-d935-4351-a748-77f044770f24and also some additional reading here: https://realpython.com/python-f-strings/
 
 **6. Solution_6.py**
 
@@ -91,7 +92,7 @@ This file contains my solution to problem 6 on the problem set. The program take
 
 **Further reading and references**
 * I wrote this program drawing on the material we covered in week 7 lectures and additional reading detailed below:
-* We covered the .split and .join functions in week 7 lecture "string operations": https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str
+* We covered the .split and .join functions in week 7 lecture "string operations": https://web.microsoftstream.com/video/c120ec64-de2e-4aa1-b0b1-d8b72067256a and https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str
 * Additional reading on .split: https://www.w3schools.com/python/ref_string_split.asp and https://www.tutorialspoint.com/python/string_split.htm
 * Additional reading on .join: https://stackoverflow.com/questions/1876191/what-exactly-does-the-join-method-do and https://www.geeksforgeeks.org/join-function-python/
 * I read how to use the shortcut * to unpack lists in python here: https://www.reddit.com/r/learnpython/comments/6b96j3/beginner_how_to_remove_square_bracket_and/, https://thispointer.com/python-how-to-unpack-list-tuple-or-dictionary-to-function-arguments-using/, https://medium.com/understand-the-python/understanding-the-asterisk-of-python-8b9daaa4a558 and https://stackoverflow.com/questions/3480184/unpack-a-list-in-python. This is the method that I used in the final solution to this problem. 
@@ -102,18 +103,17 @@ This file contains my solution to problem 6 on the problem set. The program take
  
 **Further reading and references**
 * I wrote this program myself using some additional research and reading as outlined below:
-* In developing this program I used the math.sqrt function within the math module to calculate the square root of a number inputted by the user.I read about the math module and the math.sqrt function here: https://docs.python.org/3/library/math.html, https://www.ict.social/python/basics/importing-modules-and-the-math-module-in-python and https://www.tutorialspoint.com/python/number_sqrt.htm
+* In developing this program I used the math.sqrt function within the math module to calculate the square root of a number inputted by the user. I read about the math module and the math.sqrt function here: https://docs.python.org/3/library/math.html, https://www.ict.social/python/basics/importing-modules-and-the-math-module-in-python and https://www.tutorialspoint.com/python/number_sqrt.htm
 * I needed the output to be an approximation of the square root and so I used the round function to round the result of the math.sqrt calculation to one decimal place, I read about the round function here: https://www.programiz.com/python-programming/methods/built-in/round and https://www.w3schools.com/python/ref_func_round.asp
-* I changed the output to use f strings after watching the week 7 lecture video "fstrings" and also some additional reading here: https://realpython.com/python-f-strings/
+* I revisited this solution and changed the output to use formatted strings after watching the week 7 lecture video "fstrings": https://web.microsoftstream.com/video/521b97db-d935-4351-a748-77f044770f24 and also some additional reading here: https://realpython.com/python-f-strings/
 
 **8. Solution_8.py**
 
 This file contains my solution to problem 8 on the problem set. The program outputs todays date and time in the format - Monday, January 10th 2019 at 1:15pm. We covered the datetime module in the week 6 lecture "modules" and this was the starting point in creating my solution for this problem. In this program I have imported the datetime module and given it the shortened name dt. I used the today() function to return the local date and time set and I have asked for today to be printed as output using strftime. strftime is used to return a string representation of date and time which we studied in the week 6 lectures "modules". From the week 6 lecture on modules and my extra reading I learnt that the date output can be formatted using the strftime function. I used format tokens to format the output that is printed to the screen to have the week day and month printed in full etc. The format tokens I used in strftime were: %A - Weekday full, %B - month name in full, %d - day of the week, %Y- year in full, %H - hour, %M - minute and %p - AM/PM
 
 **Further reading and references**
-* I wrote this program myself using the example we covered in the week 6 lecture on modules as a starting point and completing additional research and reading online. 
-* We covered the datetime module in the week 6 lecture called "modules"
-* I completed additional reading on the datetime module here: https://docs.python.org/3/library/datetime.html
+* I wrote this program myself using the example we covered in the week 6 lecture on modules as a starting point: https://web.microsoftstream.com/video/b8925ffa-0cf5-4fff-bfb0-b4664f704879 and completing additional research and reading online. 
+* We covered the datetime module in the week 6 lecture called "modules": https://web.microsoftstream.com/video/b8925ffa-0cf5-4fff-bfb0-b4664f704879 and I completed additional reading on the datetime module here: https://docs.python.org/3/library/datetime.html
 * We also covered the strftime function in this week 6 lecture. I completed additional reading about strftime here: https://www.w3schools.com/python/python_datetime.asp and https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior
 * I read about format tokens to format the date output in strftime here: https://stackabuse.com/how-to-format-dates-in-python/ and http://strftime.org/
 * I used these format tokens to print the current date and time to the screen in the format requested in the problem
@@ -125,7 +125,7 @@ This file contains my solution to problem 9 on the problem set. The program read
 **Further reading and references**
 * This program is adapted from: https://stackoverflow.com/questions/30551945/how-do-i-get-python-to-read-only-every-other-line-from-a-file-that-contains-a-po
 * I completed this extra reading in order to find out how to have every second line of the file printed as output, I had written the program with a for loop printing all the lines of the file to the screen but I needed extra research to see how to print every second line
-* We covered this material in the week 7 lecture video- "opening files for reading and writing"
+* We covered this material in the week 7 lecture video- "opening files for reading and writing": https://web.microsoftstream.com/video/72484dfc-1b50-4223-8039-bd6a69cab573
 * The with open command is the recommended way to open a file from the command line as the file is closed automatically after operation
 * I read about the with open keyword here: https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 * I read about writing to a file: https://www.w3schools.com/python/python_file_write.asp
