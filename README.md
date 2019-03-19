@@ -34,13 +34,14 @@ John Dunne
 
 **1. Solution_1.py**
 
- This file contains my solution to problem 1 in the Problem Set which asks the user to input a positive integer and outputs the sum of all numbers between one and that number. In this solution I added a feature to return a message to the user asking them to only enter a positive integer if the number entered by them is less than zero. This feature is an if statement that prints this message to the screen if the user has entered an input less than zero.  In a similar way I have used an if statement to ensure the program is only run where the input is greater than one. I asked for one to be added to the users input and then established a range between 1 and the new value of the variable. The reason I increased the value the user entered by one is because this is necessary to have an accurate range. The sum function is then used to sum all the numbers in the range and print them to the screen. 
+ This file contains my solution to problem 1 in the Problem Set which asks the user to input a positive integer and outputs the sum of all numbers between one and that number. In this solution I added a feature to return a message to the user asking them to only enter a positive integer if the number entered by them is less than zero. This feature is an if statement that prints this message to the screen if the user has entered an input less than zero.  In a similar way I have used an if statement to ensure the program is only run where the input is greater than one. I asked for one to be added to the users input and then established a range between 1 and the new value of the variable. The reason I increased the value the user entered by one is because this is necessary to have an accurate range. The sum function is then used to sum all the numbers in the range and print them to the screen. In the solution I used 3 variables- the number entered by the user, a new variable (the number entered by the user plus one) used to establish the range and a third variable which will be the sum of the range. I used fstring to print an output string to the screen when the program runs. 
 
 **Further reading and references**
 * I developed this solution myself and I have included below some links where I did additional reading on if statements, range and sum functions which form a core part of this solution. 
 * Sum: https://www.w3schools.com/python/ref_func_sum.asp and https://docs.python.org/3/library/functions.html
 * if statements: https://docs.python.org/3/tutorial/controlflow.html#if-statements and https://www.w3schools.com/python/python_conditions.asp
 * Range: https://docs.python.org/3/tutorial/controlflow.html#the-range-function and https://www.w3schools.com/python/ref_func_range.asp
+* I learnt about fstrings to format output in week 7 lectures and also additional reading here: https://realpython.com/python-f-strings/
 
 **2. Solution_2.py**
 
@@ -80,6 +81,7 @@ This file contains my solution to problem 5 on the problem set. This program ask
 * This program is adapted from the example we covered in the week 4 lecture on break and continue keywords: https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops
 * I have also added a feature whereby if the user enters a number less than or equal to 1 they are prompted to enter only a positive number.
 * Break: https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops and https://www.w3schools.com/python/python_while_loops.asp
+* I changed the output to use f strings after watching the week 7 lecture video "fstrings" and also some additional reading here: https://realpython.com/python-f-strings/
 
 
 
@@ -102,7 +104,7 @@ This file contains my solution to problem 6 on the problem set. The program take
 * I wrote this program myself using some additional research and reading as outlined below:
 * In developing this program I used the math.sqrt function within the math module to calculate the square root of a number inputted by the user.I read about the math module and the math.sqrt function here: https://docs.python.org/3/library/math.html, https://www.ict.social/python/basics/importing-modules-and-the-math-module-in-python and https://www.tutorialspoint.com/python/number_sqrt.htm
 * I needed the output to be an approximation of the square root and so I used the round function to round the result of the math.sqrt calculation to one decimal place, I read about the round function here: https://www.programiz.com/python-programming/methods/built-in/round and https://www.w3schools.com/python/ref_func_round.asp
-* I added curly brackets when printing the variables after watching the week 7 lecture video "fstrings"
+* I changed the output to use f strings after watching the week 7 lecture video "fstrings" and also some additional reading here: https://realpython.com/python-f-strings/
 
 **8. Solution_8.py**
 
