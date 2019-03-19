@@ -50,7 +50,7 @@ John Dunne
 
 **Further reading and references**
 * I used the example we covered in the week 1 lecture "Run a python program": https://web.microsoftstream.com/video/cd3347c4-8296-4e8c-bb63-01ef5452de17 as a starting point in writing this program and further developed the solution through additional research listed below.  
-I read about the datetime module here: https://docs.python.org/3/library/datetime.html and https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date-in-python
+* I read about the datetime module here: https://docs.python.org/3/library/datetime.html and https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date-in-python
 * I read about the weekday() function here: https://pythontic.com/datetime/date/weekday
 * I learnt about else statements in the week 4 lecture on conditionals: https://web.microsoftstream.com/video/82894055-5147-487d-ab35-6bf5c51cd889
 * I researched how to use an "or" statement here which allowed me to check for both Tuesday and Thursday in one line: https://www.w3schools.com/python/python_conditions.asp
@@ -61,6 +61,7 @@ This file contains my solution to problem 3 in the Problem Set which prints all 
 
 **Further reading and references**
 * I wrote this program myself drawing on learnings from lectures and from extra reading detailed below
+* Python operators to compare two values: https://www.w3schools.com/python/python_operators.asp
 * Modulo operator to check remainder after division: https://docs.python.org/3.3/reference/expressions.html
 * Range: https://docs.python.org/3/tutorial/controlflow.html#the-range-function and https://www.w3schools.com/python/ref_func_range.asp
 * I read about the "and" logical operator here which I used to check both conditions in one line:  https://www.w3schools.com/python/python_conditions.asp
@@ -126,8 +127,7 @@ This file contains my solution to problem 9 on the problem set. The program read
 * This program is adapted from: https://stackoverflow.com/questions/30551945/how-do-i-get-python-to-read-only-every-other-line-from-a-file-that-contains-a-po
 * I completed this extra reading in order to find out how to have every second line of the file printed as output, I had written the program with a for loop printing all the lines of the file to the screen but I needed extra research to see how to print every second line
 * We covered this material in the week 7 lecture video- "opening files for reading and writing": https://web.microsoftstream.com/video/72484dfc-1b50-4223-8039-bd6a69cab573
-* The with open command is the recommended way to open a file from the command line as the file is closed automatically after operation
-* I read about the with open keyword here: https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+* The with open command is the recommended way to open a file from the command line as the file is closed automatically after operation. I read about the with open keyword here: https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 * I read about writing to a file: https://www.w3schools.com/python/python_file_write.asp
 * Reading and writing to files: https://www.youtube.com/watch?v=YV6qm6erphk&index=23&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_ and https://stackabuse.com/read-a-file-line-by-line-in-python/
 * I read about reading a file: https://www.w3schools.com/python/python_file_open.asp and https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
