@@ -2,6 +2,12 @@
 # John Dunne 2019-03-14
 # This program is adapted from the reading I completed here: https://stackoverflow.com/questions/30551945/how-do-i-get-python-to-read-only-every-other-line-from-a-file-that-contains-a-po
 
+
+# Returning to modify using sys.argv covered in week 9 lectures: https://web.microsoftstream.com/video/65df155a-ac29-460b-869d-2de6ffc6c3fc
+import sys # sys is imported
+print(f"This script is called: {sys.argv[0]}") # this original name of the file will be printed
+for arg in sys.argv: # for each argument entered on the command line the argment is printed to the screen
+    print(arg)
 with open ('myfile.txt', 'r') as f:  # with open is used to open the file and I have asked for read mode 
    count = 0  # count is set to 0 for the first iteration of the for loop
    for line in f:  # for loop is used to loop through the lines in the file
