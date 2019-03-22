@@ -2,16 +2,13 @@
 # John Dunne 2019-03-14
 # This program is adapted from the reading I completed here: https://stackoverflow.com/questions/30551945/how-do-i-get-python-to-read-only-every-other-line-from-a-file-that-contains-a-po
 # Returned to add sys.argv after viewing the week 9 lecture on command line arguments
-# The sys.argv part of this solution was adapted from the example we covered in lecture on command line arguments: https://web.microsoftstream.com/video/65df155a-ac29-460b-869d-2de6ffc6c3fc
+# The sys.argv part of this solution is adapted from the example we covered in lecture on command line arguments: https://web.microsoftstream.com/video/65df155a-ac29-460b-869d-2de6ffc6c3fc
 
 import sys # sys is imported
-print(f"This script is called: {sys.argv[0]}") # this original name of the file will be printed
+print(f"This script is called: {sys.argv[0]}") # the original name of the file will be printed
 for arg in sys.argv: # for each argument entered on the command line the argument is printed to the screen
     print(arg)
-if len(sys.argv) == 2: # if there are 2 arguments entered on the command line this message is printed
-   print("The Program is ready to run")
-else:   # if more or less than 2 arguments are entered on the command line this line is printed
-   print("You can only supply a single filename")
+
 with open ('myfile.txt', 'r') as f:  # with open is used to open the file and I have asked for read mode 
    count = 0  # count is set to 0 for the first iteration of the for loop
    for line in f:  # for loop is used to loop through the lines in the file
