@@ -139,4 +139,8 @@ After viewing the week 9 lecture on command line arguments I returned to this so
 This file is a text file that I created for the purpose of completing solution 9 on the problem set. The sole purpose of this file is for the program that I have written in solution_9.py to read lines from the file. I wrote this file myself from the command line using the 'w' command to wrote to the file and the 'a' command to append text to the file. 
 
 **10. Solution_10.py**
+This file contains my solution to problem 10 on the problem set. The program displays a plot of the functions x, x2 and 2x in the range [0, 4]. The first thing I have done in the solution is imported the matplotlib.pylot function and given it a shorter name pl which helps cut down on key strokes when calling future commands. I have used the plot command to set the range of the x and y axis to be between 0 and 4 and I have called for the plot to be displayed using the show command. I read about both of these commands and their usage on the pyplot tutorial, further details in the references section below. The next thing I have to do is to plot the functions x, x2 and 2x.
 
+**Further reading and references**
+* The starting point for me in writing the solution for this problem was the week 9 lecture videos on matplotlib pylot: https://web.microsoftstream.com/video/f0788c1c-c7bd-4347-98ac-477186938ed7 and numpy: https://web.microsoftstream.com/video/74b18405-5ee1-47f0-a42d-e8831a453a91. 
+* I then completed further reading on the pyplot tutorial here: https://matplotlib.org/users/pyplot_tutorial.html

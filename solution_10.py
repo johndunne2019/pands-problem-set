@@ -1,9 +1,10 @@
-# This program displays a plot of the functions x, x sqauerd and 2 to the power of x in the [0, 4]
-# John Dunne
-# I am starting to develop this solution while watching the week 9 lecture videos
+# This program displays a plot of the functions x, x2 and 2x in the range [0, 4]
+# John Dunne 2019-03-24
+# I am starting to develop this solution while watching the week 9 lecture videos and further reading on the pyplot tutorial
 # Additional reading matplotlib pyplot tutorial: https://matplotlib.org/users/pyplot_tutorial.html 
 # From the tutorial I see how to plot an axis
-import matplotlib.pyplot as plt # mathplotlib.pyplot is imported and given a shorter name
-plt.plot([0,1,2,3,4])  # x axis is the default so x axis is set in the range 0 to 4 here
-plt.show() # this is the command used to show the plot created above
-# I hwill return to solution
+import numpy as np
+import matplotlib.pyplot as pl # mathplotlib.pyplot is imported and given a shorter name
+pl.plot([0,1,2,3,4], [0,1,2,3,4])  # both the x and y axis have been set to to the range [0,4]
+pl.show() # this is the command used to show the plot created above
+# I have to plot the functions of x, x2 and 2x
