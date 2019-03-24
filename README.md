@@ -144,3 +144,4 @@ This file contains my solution to problem 10 on the problem set. The program dis
 **Further reading and references**
 * The starting point for me in writing the solution for this problem was the week 9 lecture videos on matplotlib pylot: https://web.microsoftstream.com/video/f0788c1c-c7bd-4347-98ac-477186938ed7 and numpy: https://web.microsoftstream.com/video/74b18405-5ee1-47f0-a42d-e8831a453a91. 
 * I then completed further reading on the pyplot tutorial here: https://matplotlib.org/users/pyplot_tutorial.html
+* I read how to add a title to a plot and format the font size and weight on the text tutorial section of the pyplot tutorial here: https://matplotlib.org/users/text_intro.html#text-intro

@@ -5,7 +5,10 @@
 # From the tutorial I see how to plot an axis
 import numpy as np
 import matplotlib.pyplot as pl # mathplotlib.pyplot is imported and given a shorter name
-plot = pl.plot([0,1,2,3,4], [0,1,2,3,4])  # both the x and y axis have been set to to the range [0,4]
-pl.setp(plot, color='r', linewidth= 1.0)
+pl.plot([0,1,2,3,4])  #plot the range of [0,4]
+pl.xlabel("x axis", fontsize=12, fontweight= 'bold') #adding name to x  and y axis (read in pyplot tutorial text section)
+pl.ylabel("y axis", fontsize=12, fontweight= 'bold') #added a font size and font weight 
+pl.title("Plot Generated from Solution_10.py", fontsize= 14, fontweight='bold') 
+# adding a title to the plot and formatting as read in the text section of the pyplot tutorial
 pl.show() # this is the command used to show the plot created above
 # I have to plot the functions of x, x2 and 2x
