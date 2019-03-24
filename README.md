@@ -140,14 +140,15 @@ This file is a text file that I created for the purpose of completing solution 9
 
 **10. Solution_10.py**
 
-This file contains my solution to problem 10 on the problem set. The program displays a plot of the functions x, x2 and 2x in the range [0, 4]. The first thing I have done in the solution is imported the matplotlib.pylot function and given it a shorter name pl which helps cut down on key strokes when calling future commands. I have used the plot command to set the range of the x and y axis to be between 0 and 4 and I have called for the plot to be displayed using the show command. I read about both of these commands and their usage on the pyplot tutorial, further details in the references section below. The next thing I have to do is to plot the functions x, x2 and 2x.
+This file contains my solution to problem 10 on the problem set. The program displays a plot of the functions x, x2 and 2x in the range [0, 4]. The first thing I have done in the solution is imported the matplotlib.pylot function and given it a shorter name pl which helps cut down on key strokes when calling future commands.
 
 **Further reading and references**
 * The starting point for me in writing the solution for this problem was the week 9 lecture videos on matplotlib pylot: https://web.microsoftstream.com/video/f0788c1c-c7bd-4347-98ac-477186938ed7 and numpy: https://web.microsoftstream.com/video/74b18405-5ee1-47f0-a42d-e8831a453a91. 
 * I then completed further reading on the pyplot tutorial here: https://matplotlib.org/users/pyplot_tutorial.html
+* Further reading on numpy in the numpy tutorial: https://docs.scipy.org/doc/numpy/user/quickstart.html
 * I read how to add a title to a plot and format the font size and weight on the text tutorial section of the pyplot tutorial here: https://matplotlib.org/users/text_intro.html#text-intro. From the reading here I learnt how to use the text commands- fontsize and fontweight to format the title that is shown on the plot. I also read in this text tutorial about labelling the x and y axis and I used the xlabel and ylabel commands to do this. 
 * I read how to format the appearance of the line that is plotted using attributes in the section called 'controlling line properties on the pyplot tutorial: https://matplotlib.org/users/pyplot_tutorial.html. From this reading I was able to use the attributes - color, linewidth and linestyle to format the appearance of the line when it appears on the plot. 
-* Further reading on numpy in the numpy tutorial: https://docs.scipy.org/doc/numpy/user/quickstart.html
 * How numpy.arange works: http://courses.csail.mit.edu/6.867/wiki/images/3/3f/Plot-python.pdf
 * Further reading on numpy.arange: https://www.sharpsightlabs.com/blog/numpy-arange/ and https://www.geeksforgeeks.org/numpy-arange-python/
 * I read about creating a legend on the plot, naming the points plotted for the legend and stating where the legend should be located: https://matplotlib.org/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py, https://stackoverflow.com/questions/19125722/adding-a-legend-to-pyplot-in-matplotlib-in-the-most-simple-manner-possible and https://matplotlib.org/api/_as_gen/matplotlib.pyplot.legend.html
+* The power operator to calculate 2 to the power of x: https://docs.python.org/2.5/ref/power.html and https://docs.python.org/3/reference/expressions.html#the-power-operator
