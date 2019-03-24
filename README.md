@@ -150,3 +150,4 @@ This file contains my solution to problem 10 on the problem set. The program dis
 * Further reading on numpy in the numpy tutorial: https://docs.scipy.org/doc/numpy/user/quickstart.html
 * How numpy.arange works: http://courses.csail.mit.edu/6.867/wiki/images/3/3f/Plot-python.pdf
 * Further reading on numpy.arange: https://www.sharpsightlabs.com/blog/numpy-arange/ and https://www.geeksforgeeks.org/numpy-arange-python/
+* I read about creating a legend on the plot, naming the points plotted for the legend and stating where the legend should be located: https://matplotlib.org/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py, https://stackoverflow.com/questions/19125722/adding-a-legend-to-pyplot-in-matplotlib-in-the-most-simple-manner-possible and https://matplotlib.org/api/_as_gen/matplotlib.pyplot.legend.html

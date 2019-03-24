@@ -12,10 +12,12 @@ pl.ylabel("y axis", fontsize=12, fontweight= 'bold') #added a font size and font
 pl.title("Plot Generated from Solution_10.py", fontsize= 14, fontweight='bold') 
 # Adding a title to the plot and formatting as read in the text section of the pyplot tutorial
 
-a = x # a is set to the value of x 
-b = x*x # b is set to the value of x squared
-pl.plot(a, c='r', lw= 4.0, ls= '--') # I have asked for a to be plotted with a red line 
+a = x # I introduced a variable called a set it equal to the value of x 
+b = x*x # I introduced a variable called b and set it equal to the value of x squared
+pl.plot(a, c='r', lw= 4.0, ls= '--', label= 'x') # I have asked for a to be plotted with a red line 
 #c short for color, ls short for linestyle and lw short for linewidth
 # I formatted the line that will be plotted using the attributes that I read about in the 'controlling line properties' section of the pyplot tutorial
-pl.plot(b, c='g', lw= 4.0, ls= '--') # I have asked for b to be ploteed with a green line
+pl.plot(b, c='g', lw= 4.0, ls= '--', label= 'x²') # I have asked for b to be ploteed with a green line
+pl.legend(loc= 'upper left') # This command shows the legend on the plot, I have given the names in pl.plot above using label
+# I have used loc and upper left ask for the legend to be placed in the top left corner of the plot
 pl.show() # this is the command used to show the plot created above
