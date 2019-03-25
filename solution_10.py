@@ -25,4 +25,5 @@ pl.plot(c, c='y', lw= 4.0, ls= '--', label= '2x') # I have asked for 'c' to be p
 
 pl.legend(loc= 'upper left') # This command shows the legend on the plot, I have given the names in pl.plot above using label
 # I have used loc and upper left ask for the legend to be placed in the top left corner of the plot
+pl.grid(True) # I revisited the solution and asked for a grid to be shown on the plot after further reading
 pl.show() # This is the command used to show the plot created above
