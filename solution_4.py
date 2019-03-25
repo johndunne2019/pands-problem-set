@@ -11,7 +11,8 @@ def odd_even(): # I have created a function inside of which a while loop will be
   print(x, end = ' ')  # I want the integer the user has inputted to be printed to the screen first as the starting point of the output
   while x > 1:  # While loop runs when x is greater than 1, otherwise program will be stuck in an infinite loop
     if x % 2 == 0: # I have used the modulo operator to determine if the number is even or odd
-        x = x //2   # if the current value of x is even then the new value of x is set to the current value divided by 2 
+        x = x //2   # if the current value of x is even then the new value of x is set to the current value divided by 2
+        # // is used to return an integer (floor divisor)
     else:  # if the current value was odd the if statement above is passed and the else statement here sets the current value of x in next line
         x = 3 * x + 1  # For odd numbers the new value of x is set to the current value multiplied by 3 plus 1 
     print(x, end = ' ')   # I have asked for the output to be printed horizontally on the screen using end = ' ' 

@@ -76,6 +76,7 @@ This file contains my solution to problem 4 on the problem set. The program asks
 * While loops: Covered in week 4 lecture:https://web.microsoftstream.com/video/20963781-2aea-4302-ba73-5b8f327f4189 and additional reading: https://docs.python.org/3/reference/compound_stmts.html#while and https://www.w3schools.com/python/python_while_loops.asp
 * Modulo operator: https://docs.python.org/3.3/reference/expressions.html
 * "end =" to print the output horizontally: https://stackoverflow.com/questions/8437964/python-printing-horizontally-rather-than-current-default-printing
+* Floor divisor // used to return an integer value and not a floating point number: https://docs.python.org/3/tutorial/introduction.html#numbers
 
 **5. Solution_5.py**
 
