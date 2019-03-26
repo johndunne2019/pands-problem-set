@@ -4,18 +4,17 @@
 # Returned to add sys.argv after viewing the week 9 lecture on command line arguments
 # The sys.argv part of this solution is adapted from the example we covered in lecture on command line arguments: https://web.microsoftstream.com/video/65df155a-ac29-460b-869d-2de6ffc6c3fc
 
-import sys # sys is imported
-print(f"This script is called: {sys.argv[0]}") # the original name of the file will be printed
-for arg in sys.argv: # for each argument entered on the command line the argument is printed to the screen
-    print(arg)
+import sys # sys is imported and sys.argv will be used to read the file from a command typed at the command line
+# I have added this after viewing the week 9 lecture on command line arguments
 
-with open ('myfile.txt', 'r') as f:  # with open is used to open the file and I have asked for read mode 
+with open (sys.argv[1], 'r') as f:  # with open is used to open the file and I have asked for read mode 
+   # sys.argv[1] means the second command typed on the command line in the index 1 position will be opened
    count = 0  # count is set to 0 for the first iteration of the for loop
    for line in f:  # for loop is used to loop through the lines in the file
       count = count + 1   # 1 is added to the value of count each time the file loops through a line 
       if count % 2 == 0:  # Modulo operator used to establish if the line is an even numbered line (every second line)
          print(line)  # Every second line will be printed as output
-
+         
 # Count is used to assign a starting value of zero to the first line in a file and a for loop will loop through each line of the file
 # Every time the loop runs one is added to the value of count and an if statement with modulo operator will identify even numbered lines 
 # Example - In the first iteration of the for loop the first line is assigned value of one and thus wont be printed and so on
