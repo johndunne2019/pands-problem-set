@@ -9,7 +9,7 @@ daynumber= int(today.strftime("%d"))  # I introduce the variable daynumber here 
 # From my additional reading on strftime formatting I learnt %d returns an integer equivalent of the day of the month
 # I had to add int to have the integer value %d be recognized and work properly in the below if, elif, else statements
 # First I had just - daynumber= today.strftime(%d) and this didnt work correctly
-if daynumber in (1, 21, 31, 29): 
+if daynumber in (1, 21, 31): # I first had == and this didnt work so I have used in keyword instead
     daynumber = 'st'  # if statement used to assign the value 'st' to the 1st, 21st and 31st day of the month
 elif daynumber in (2, 22):
     daynumber = 'nd' # elif used to assign the value 'nd' to the 2nd and 22nd day of the month
