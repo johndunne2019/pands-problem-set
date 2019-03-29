@@ -19,15 +19,10 @@ else:
     daynumber = 'th' # else statement used to assign the value 'th' to all other days of the month
 
 print(f"The current date and time is: {today.strftime('%A, %B %d')}{daynumber} {today.strftime('%Y at %H:%M%p')}")
-# I have used f strings to have all info I needed printed together in the same sentence
+# I have used f strings to print the full sentence to the screen as output
 # I have asked for today to be printed using strftime to return the required results
-# %A - Weekday full, %B - month name in full, %d - day of the week, %Y- year in full, %H - hour, %M - minute and %p - AM/PM
-# I introduced a variable called daynumber which was used to assign a value for the suffix to the date and printed in output
-
-# This program uses the datetime module and the strftime function within the datetime module to output the current date and time
-# I constructed this program myself using the material we covered in the week 6 lecture as a starting point 
-# strftime is used return a string representation of date and time which we studied in the week 6 lectures "modules"
-# I completed additional reading on strftime: https://docs.python.org/3/library/datetime.html and https://docs.python.org/3/library/datetime.html#strftime-strptime-behavior
 # I read about format tokens to format the date output in strftime here: https://stackabuse.com/how-to-format-dates-in-python/ and http://strftime.org/
 # I used these format tokens to print the current date and time to the screen in the format requested in the problem
+# %A - Weekday full, %B - month name in full, %d - day of the week, %Y- year in full, %H - hour, %M - minute and %p - AM/PM
+# I introduced a variable called daynumber which was used to assign a value for the suffix to the date and printed in output 
 # I returned to the solution and added if, elif, else to assign value to the variable daynumber and also to add fstring for printing output
