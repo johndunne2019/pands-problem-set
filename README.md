@@ -30,7 +30,7 @@ John Dunne
 8. The program will run and the output will be returned on the command line.
 
 ## Contents of my files
-**In this section there is a breakdown on the contents of the files in my repository and some background to the contents of each file and the thought process that went into the writing of each solution. I have also included details of the extra reading I completed and references used**
+**In this section there is a breakdown on the contents of the files in my repository and some background to the contents of each file and the thought process that went into the writing of each solution. I have also included details of the extra reading I completed and references used.**
 
 **1. Solution_1.py**
 
@@ -49,7 +49,7 @@ John Dunne
  This file contains my solution to problem 2 in the Problem Set which outputs whether or not today is a day beginning with the letter T. The datetime module is used in this solution and within the datetime module I have used the weekday() function to identify the weekday. From my research online I found out the weekday () function returns an integer which corresponds to the day of the week. I used an if statement to check whether the current day is Tuesday or Thursday which in this case is 1 and 3 using the weekday() function. I used the "or" logical operator to check both conditions in the same line. An else statement is used to print an output for the other days of the week that are not given an output as a result of the if statement. 
 
 **Further reading and references**
-* I used the example we covered in the week 1 lecture "Run a python program": https://web.microsoftstream.com/video/cd3347c4-8296-4e8c-bb63-01ef5452de17 as a starting point in writing this program and further developed the solution through additional research listed below.  
+* This program is adapted from the example we covered in the week 1 lecture "Run a python program": https://web.microsoftstream.com/video/cd3347c4-8296-4e8c-bb63-01ef5452de17 and I further developed the solution through additional research listed below.  
 * I read about the datetime module here: https://docs.python.org/3/library/datetime.html and https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date-in-python
 * I read about the weekday() function here: https://pythontic.com/datetime/date/weekday
 * I learnt about else statements in the week 4 lecture on conditionals: https://web.microsoftstream.com/video/82894055-5147-487d-ab35-6bf5c51cd889
@@ -57,7 +57,7 @@ John Dunne
 
 **3. Solution_3.py**
 
-This file contains my solution to problem 3 in the Problem Set which prints all numbers between 1,000 and 10,000 that are divisible by 6 but not divisible by 12. In this solution I established a range of numbers between 1,000 and 10,000 and used an if statement to check the conditions outlined in the program. I used the "and" keyword to check both conditions in one line of code. I checked the conditions of the if statement by using the modulo operator to check the remainder when each number in the range was divided by 6 and 12. From my additional reading I learnt that the modulo operator yields the remainder of the division of the first argument by the second argument. Using modulo I was able to ask in the if statement for numbers whose remainder when divided by six was zero and the remainder when divided by twelve was not zero to be printed. 
+This file contains my solution to problem 3 in the Problem Set which prints all numbers between 1,000 and 10,000 that are divisible by 6 but not divisible by 12. In this solution I established a range of numbers between 1,000 and 10,000 and used an if statement within a for loop to check the conditions outlined in the program. I used the "and" keyword to check both conditions in one line of code. I checked the conditions of the if statement by using the modulo operator to check the remainder when each number in the range was divided by 6 and 12. From my additional reading I learnt that the modulo operator yields the remainder of the division of the first argument by the second argument. Using modulo I was able to ask in the if statement for numbers whose remainder when divided by six was zero and the remainder when divided by twelve was not zero to be printed. The for loop runs for each number in the range and the results of the modulo operation are printed as output. 
 
 **Further reading and references**
 * I wrote this program drawing on learnings from lectures and from extra reading detailed below
@@ -65,6 +65,7 @@ This file contains my solution to problem 3 in the Problem Set which prints all 
 * Modulo operator to check remainder after division: https://docs.python.org/3.3/reference/expressions.html
 * Range: https://docs.python.org/3/tutorial/controlflow.html#the-range-function and https://www.w3schools.com/python/ref_func_range.asp
 * I read about the "and" logical operator here which I used to check both conditions in one line:  https://www.w3schools.com/python/python_conditions.asp
+* For Loops covered in week 4 lectures "Controlling the Flow": https://web.microsoftstream.com/video/20963781-2aea-4302-ba73-5b8f327f4189
 
 **4. Solution_4.py**
 
@@ -80,7 +81,7 @@ This file contains my solution to problem 4 on the problem set. The program asks
 
 **5. Solution_5.py**
 
-This file contains my solution to problem 5 on the problem set. This program asks the user to input any positive integer and it tells the user if it is a prime number or not. A prime number is a whole number greater than 1 divisible only by itself and 1. If a number is divisible by any other number it is not a prime number. In this solution a range is established between 2 and one less than the number inputted by the user. A for loop with an if statement embedded will run for each number in the range to detect if any number in the range is divisible by the number inputted in which case the number is proven not to be a prime. Once a factor has been found within the range we dont need to find another one as we have proven the number has a factor other than itself and one and so is not a prime number. The break keyword has been used to break out of the loop. If no factor has been found withing the range the else statement runs to tell the user the number is a prime. I have also added a feature whereby if the user enters a number less than or equal to 1 they are prompted to enter only a number greater than 1. After watching the week 7 lecture "fstrings" I returned to this solution and changed the format of my output messaged to return the number entered by the user in curly braces. 
+This file contains my solution to problem 5 on the problem set. This program asks the user to input any positive integer and it tells the user if it is a prime number or not. A prime number is a whole number greater than 1 divisible only by itself and 1. If a number is divisible by any other number it is not a prime number. In this solution a range is established between 2 and one less than the number inputted by the user. A for loop with an if statement embedded will run for each number in the range to detect if any number in the range is divisible by the number inputted in which case the number is proven not to be a prime. Once a factor has been found within the range we dont need to find another one as we have proven the number has a factor other than itself and one and so is not a prime number. The break keyword has been used to break out of the loop once a factor has been found. If no factor has been found within the range the else statement runs to tell the user the number is a prime. I have also added a feature whereby if the user enters a number less than or equal to 1 they are prompted to enter only a number greater than 1. After watching the week 7 lecture "fstrings" I returned to this solution and changed the format of my output messaged to return the number entered by the user in curly braces. 
 
 **Further reading and references**
 * This program is adapted from the example we covered in the week 4 lecture on break and continue keywords: https://docs.python.org/3/tutorial/controlflow.html#break-and-continue-statements-and-else-clauses-on-loops

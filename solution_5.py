@@ -9,7 +9,7 @@ print("This program takes a positive integer (whole number) and tells you whethe
 number = int(input("Please Enter a Positive Integer:"))  
 #The user is asked to input a positive integer. The program will then identify if the number is a prime number or not. 
 if number <= 1:    # If the integer entered by the user is less than or equal to one the below prompt will print to the screen
-    print(f"You have entered a negative number {number} Please enter a positive number")
+    print(f"Prime numbers are greater than 1, you have entered: {number} Please enter a number greater than 1")
 if number > 1:  # Prime numbers are greater than one and so I have asked for the loop to run only for numbers greater than one
   for i in range (2, number):  # A range has been defined between 2 up to but not including the number entered by the user.
     if number % i == 0:      # the if statement here will run within the for loop through all the numbers starting at 2 up to but not including the number that has been inputted by the user and if any of the numbers are evenly divisible into the number inputted it is not a prime number 
